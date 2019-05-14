@@ -8,7 +8,7 @@ layout: default
 <div id="gridContainer">
   {% for post in site.posts %}
     <div class="imageContainer">
-      <div class="image" onclick="window.open('{{ site.baseurl }}/{{ post.url }}','_self')">
+      <div class="image" onclick="window.open('{{ site.baseurl }}{{ post.url }}','_self')">
           <img src="{{ post.mainImage }}" />
       </div>
     </div>

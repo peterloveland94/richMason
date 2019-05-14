@@ -18,7 +18,7 @@ layout: default
             <!-- Slides -->
             {% for img in page.gallery.image %}
             <div class="swiper-slide">
-                <img src="{{ site.baseurl }}/{{ img.url }}" />
+                <img src="{{ site.baseurl }}{{ img.url }}" />
             </div>
           {% endfor %}
             

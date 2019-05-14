@@ -2,4 +2,5 @@
 layout: projectPage
 title:  "Project 3"
 mainImage: img/image4.jpg
+permalink: "/project3"
 ---
