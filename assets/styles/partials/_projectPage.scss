@@ -1,0 +1,16 @@
+.projectGrid {
+  display: flex;
+  .content {
+    flex-basis: 25rem;
+    flex-shrink: 0;
+  }
+  .images {
+    overflow: hidden;
+    .swiper-slide {
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

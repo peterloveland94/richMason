@@ -1,0 +1,13 @@
+$keyline: #f3f3f3;
+$bodyType: black;
+$gridMargin: 1rem;
+
+@import "partials/masonryGrid.scss";
+@import "partials/typography.scss";
+@import "partials/projectPage.scss";
+@import "partials/nav.scss";
+
+body {
+  font-family: 'alegreya';
+  color: $bodyType;
+}

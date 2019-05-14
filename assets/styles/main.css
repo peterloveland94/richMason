@@ -1,0 +1,59 @@
+.imageContainer {
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: auto;
+  padding: 1rem;
+}
+
+.imageContainer .image {
+  cursor: pointer;
+}
+
+.imageContainer .image img {
+  height: auto;
+  width: 100%;
+}
+
+p {
+  margin-bottom: .5rem;
+}
+
+.projectGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projectGrid .content {
+  -ms-flex-preferred-size: 25rem;
+      flex-basis: 25rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.projectGrid .images {
+  overflow: hidden;
+}
+
+.projectGrid .images .swiper-slide {
+  overflow: hidden;
+}
+
+.projectGrid .images .swiper-slide img {
+  width: 100%;
+}
+
+nav {
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+body {
+  font-family: 'alegreya';
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

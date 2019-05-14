@@ -1,0 +1,13 @@
+.imageContainer {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: auto;
+  padding: $gridMargin;
+  .image {
+    cursor: pointer;
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
