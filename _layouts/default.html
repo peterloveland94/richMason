@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
-    <script src="{{ site.baseurl }}/assets/masonry.js"></script>
-    <script src="{{ site.baseurl }}/assets/swiper/swiper.min.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl | relative_url }}/assets/styles/main.css">
+    <script src="{{ site.baseurl | relative_url }}/assets/masonry.js"></script>
+    <script src="{{ site.baseurl | relative_url }}/assets/swiper/swiper.min.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/tdq4uht.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/swiper/swiper.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl | relative_url }}/assets/swiper/swiper.min.css">
   </head>
   <body>
     <nav>
@@ -23,6 +23,6 @@
     <footer>
 
     </footer>
-    <script src="{{ site.baseurl }}/assets/scripts.js"></script>
+    <script src="{{ site.baseurl | relative_url }}/assets/scripts.js"></script>
   </body>
 </html>
