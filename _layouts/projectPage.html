@@ -7,34 +7,55 @@ layout: default
 
 <div class="projectGrid">
   <div class="content">
+    <header>
+      <h1>{{ page.title }}</h1>
+    </header>
     {{ page.content }}
+    <div class="projectDetails top">
+      {% include projectDetails.html %}
+    </div>
   </div>
   <div class="images">
-
+    <div class="pagination">
+      {% assign total = page.gallery | size %}
+      <div class="counter">
+        Image&#160;<a id="currentIndex" class="current">1</a>&#160;of&#160;{{ total }}
+      </div>
+      <div class="arrows">
+        <div class="arrow left" onclick="sliderPrev();"><</div>
+        <div class="arrow right" onclick="sliderNext();">></div>
+      </div>
+    </div>
+    <div class="pageControls">
+      <div class="left" onclick="sliderPrev();"></div>
+      <div class="right" onclick="sliderNext();"></div>
+    </div>
     <!-- Slider main container -->
     <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            {% for img in page.gallery.image %}
-            <div class="swiper-slide">
-                <img src="{{ site.baseurl }}/{{ img.url }}" />
-            </div>
-          {% endfor %}
-            
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        {% for img in page.gallery %}
+        <div class="swiper-slide">
+          <div class="galleryImageContainer">
+            <img src="{{ site.baseurl }}/{{ img[0] }}" />
+          </div>
+          <div class="captionContainer">
+            {{ img[1] }}
+          </div>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+        {% endfor %}
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+      </div>
 
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+
     </div>
 
   </div>
-  
+
+  <div class="projectDetails bottom">
+    {% include projectDetails.html %}
+  </div>
+
 
 </div>

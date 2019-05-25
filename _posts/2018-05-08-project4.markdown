@@ -1,6 +1,0 @@
----
-layout: projectPage
-title:  "Project 4"
-mainImage: img/image4.jpg
-permalink: "/project4"
----

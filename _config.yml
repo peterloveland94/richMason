@@ -45,3 +45,15 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+collections:
+  portfolio:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      permalink: /:slug
+      order: 100
+      layout: projectPage

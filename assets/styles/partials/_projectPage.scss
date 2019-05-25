@@ -1,16 +1,151 @@
+
 .projectGrid {
   display: flex;
   .content {
     flex-basis: 25rem;
     flex-shrink: 0;
+    padding: $pageMargin;
   }
+
+  .projectDetails {
+    &.top {
+      display: block;
+    }
+    &.bottom {
+      display: none;
+    }
+  }
+
   .images {
     overflow: hidden;
-    .swiper-slide {
-      overflow: hidden;
-      img {
-        width: 100%;
+    margin-top: $pageMargin;
+    margin-bottom: $pageMargin;
+    background: $imageBackground;
+    margin-right: $pageMargin;
+    position: relative;
+    .pagination {
+      position: absolute;
+      z-index: 2;
+      display: flex;
+      height: 2.5rem;
+      // align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+      // padding-left: 2rem;
+      .counter {
+        display: flex;
+        align-items: center;
+        margin-right: .5rem;
+      }
+      .arrows {
+        display: flex;
+        .arrow {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 2.5rem;
+          height: 2.5rem;
+          cursor: pointer;
+          background: black;
+          margin-left: .25rem;
+          color: white;
+          vertical-align: 2px;
+        }
       }
     }
+    .pageControls {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: $pageMargin * 2;
+      bottom: $pageMargin * 2;
+      z-index: 3;
+      display: flex;
+      .left {
+        flex-basis: 50%;
+        cursor: w-resize;
+      }
+      .right {
+        flex-basis: 50%;
+        cursor: e-resize;
+      }
+    }
+    .swiper-slide {
+      overflow: hidden;
+      height: 30rem;
+      height: calc(100vh - #{$navHeight} - #{$pageMargin * 2}); 
+      overflow: hidden;
+      box-sizing: border-box;
+      background: $imageBackground;
+      padding: $pageMargin;
+      padding-top: $pageMargin*2;
+      padding-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      .galleryImageContainer {
+        padding: 0;
+        overflow: hidden;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+      .captionContainer {
+        height: $pageMargin*2;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0.25rem;
+        box-sizing: border-box;
+        flex-grow: 0;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 64rem) {
+  html {
+    font-size: 14px;
+  }
+  .projectGrid {
+    .content {
+      flex-basis: 65rem;
+      flex-shrink: 1;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 48rem) {
+  .projectGrid {
+    // flex-direction: column-reverse;
+    flex-direction: column;
+    h1 {
+      margin-top: 0;
+    }
+    .content {
+      flex-basis: auto;
+      flex-shrink: 1;
+    }
+    .projectDetails {
+      &.top {
+        display: none;
+      }
+      &.bottom {
+        display: block;
+      }
+    }
+  }
+
+
+  .images {
+    // overflow: hidden;
+    // padding: 2rem;
+    // max-width: 40rem;
+    // margin-left: auto;
+    // margin-right: auto;
   }
 }

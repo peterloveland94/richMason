@@ -4,13 +4,15 @@
 
 layout: default
 ---
-
-<div id="gridContainer">
-  {% for post in site.posts %}
-    <div class="imageContainer">
-      <div class="image" onclick="window.open('{{ site.baseurl }}{{ post.url }}','_self')">
-          <img src="{{ site.baseurl }}/{{ post.mainImage }}" />
+<div class="grid">
+  <div id="gridContainer" class="gridContainer">
+    {% assign sortedPosts = site.portfolio | sort: 'order' %}
+    {% for post in sortedPosts %}
+      <div class="imageContainer {{ post.size | default: "small" }}">
+        <div class="image" onclick="window.open('{{ site.baseurl }}{{ post.url }}','_self')">
+            <img src="{{ site.baseurl }}/{{ post.mainImage }}" />
+        </div>
       </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>

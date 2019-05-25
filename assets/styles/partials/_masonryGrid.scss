@@ -1,9 +1,23 @@
+.grid {
+  padding: $pageMargin/2;
+}
+
+.gridContainer {
+}
+
 .imageContainer {
   overflow: hidden;
   box-sizing: border-box;
   width: auto;
   padding: $gridMargin;
+  width: 33%;
+  &.large {
+    width: 66%;
+  }
   .image {
+    &:nth-of-type(2) {
+      width: 800px;
+    }
     cursor: pointer;
     img {
       height: auto;

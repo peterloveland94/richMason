@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
-    <script src="{{ site.baseurl }}/assets/masonry.js"></script>
+    <!-- <script src="{{ site.baseurl }}/assets/masonry.js"></script> -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+
     <script src="{{ site.baseurl }}/assets/swiper/swiper.min.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/tdq4uht.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/swiper/swiper.min.css">
@@ -16,7 +20,7 @@
       <a href="{{ site.baseurl }}/aboutme/">About me</a>
       <a href="{{ site.baseurl }}/contact/">Contact</a>
     </nav>
-    <h1>{{ page.title }}</h1>
+    
     <section>
       {{ content }}
     </section>

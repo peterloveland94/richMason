@@ -1,6 +1,9 @@
 $keyline: #f3f3f3;
 $bodyType: black;
+$imageBackground: #fafafa;
 $gridMargin: 1rem;
+$pageMargin: 2rem;
+$navHeight: 4rem;
 
 @import "partials/masonryGrid.scss";
 @import "partials/typography.scss";
@@ -10,4 +13,5 @@ $gridMargin: 1rem;
 body {
   font-family: 'alegreya';
   color: $bodyType;
+  margin: 0;
 }
