@@ -18,12 +18,13 @@ imagesLoaded( document.querySelector('#gridContainer'), function( instance ) {
 
 var mySwiper = new Swiper('.swiper-container', {
   speed: 200,
-  spaceBetween: 100
+  spaceBetween: 100,
+  loop: true
 });
 
 mySwiper.on('transitionEnd', function () {
-  var activeIndex = mySwiper.activeIndex + 1;
-  document.getElementById('currentIndex').innerHTML = activeIndex;
+  var realIndex = mySwiper.realIndex + 1;
+  document.getElementById('currentIndex').innerHTML = realIndex;
 });
 
 
