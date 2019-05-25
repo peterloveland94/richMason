@@ -230,8 +230,9 @@ p {
 }
 
 @media (pointer: fine) {
-  body {
-    background: red;
+  .pageControls {
+    display: none;
+    pointer-events: none;
   }
 }
 
