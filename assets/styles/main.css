@@ -231,13 +231,13 @@ p {
 
 @media (pointer: coarse) {
   .pageControls {
-    display: none;
-    pointer-events: none;
+    display: none !important;
+    pointer-events: none !important;
   }
   .arrow {
-    height: 5rem;
-    width: 5rem;
-    background-color: red;
+    height: 5rem !important;
+    width: 5rem !important;
+    background-color: red !important;
   }
 }
 
