@@ -229,7 +229,7 @@ p {
   }
 }
 
-@media (pointer: fine) {
+@media (pointer: coarse) {
   .pageControls {
     display: none;
     pointer-events: none;
