@@ -3,4 +3,6 @@ nav {
   margin-left: $pageMargin;
   margin-right: $pageMargin;
   height: $navHeight;
+  display: flex;
+  align-items: center;
 }
