@@ -10,7 +10,7 @@ layout: default
     {% for post in sortedPosts %}
       <div class="imageContainer {{ post.size | default: "small" }}">
         <div class="image" onclick="window.open('{{ site.baseurl }}{{ post.url }}','_self')">
-            <img src="{{ site.baseurl }}/{{ post.mainImage }}" />
+            <img src="{{ site.baseurl }}/img/{{ post.mainImage }}" />
         </div>
       </div>
     {% endfor %}

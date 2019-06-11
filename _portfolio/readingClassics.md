@@ -1,10 +1,10 @@
 ---
 order: 2
 title: Complicated Texts
-mainImage: img/complexTexts.jpg
+mainImage: Complex_texts-01.jpg
 gallery:
-  "img/image2.jpg": "This is a test caption"
-  "img/image3.jpg": "This is a test caption2"
+  "image2.jpg": "This is a test caption"
+  "image3.jpg": "This is a test caption2"
 details:
   "Size": 3.5cm x 22cm
   "Paper Stock": "olinNatural White 80gsm"
