@@ -1,5 +1,5 @@
 $keyline: #f3f3f3;
-$bodyType: black;
+$text-01: black;
 $imageBackground: #fafafa;
 $gridMargin: 1rem;
 $pageMargin: 2rem;
@@ -11,7 +11,9 @@ $navHeight: 4rem;
 @import "partials/nav.scss";
 
 body {
-  font-family: 'alegreya';
-  color: $bodyType;
   margin: 0;
 }
+
+
+
+

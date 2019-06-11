@@ -1,6 +1,6 @@
 ---
 order: 2
-title: Complicated Texts
+title: Reading Classics
 mainImage: Complex_texts-01.jpg
 gallery:
   "image2.jpg": "This is a test caption"
@@ -11,6 +11,8 @@ details:
   "Endpapers": "indsor & Newton Ice Blue 150gsm"
   "Binding": "indsor Deal Lined Bookcloth, 2mm greyboard"
 ---
+
+University project
 
 Here will be some kind of description about the project, why I did it, what makes it interesting that sort of thing. It needs to have space for quite a bit of information incase there’s lot to say. For example on my uni pieces there will be a fair chunk.
 

@@ -28,6 +28,11 @@
   width: 100%;
 }
 
+body {
+  font-family: 'alegreya';
+  color: black;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -249,9 +254,15 @@ nav {
           align-items: center;
 }
 
+nav .title {
+  margin-right: 1rem;
+}
+
+nav .navItem {
+  margin-right: .5rem;
+}
+
 body {
-  font-family: 'alegreya';
-  color: black;
   margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

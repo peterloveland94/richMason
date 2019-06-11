@@ -5,4 +5,10 @@ nav {
   height: $navHeight;
   display: flex;
   align-items: center;
+  .title {
+    margin-right: 1rem;
+  }
+  .navItem {
+    margin-right: .5rem;
+  }
 }
