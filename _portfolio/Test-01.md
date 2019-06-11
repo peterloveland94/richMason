@@ -1,12 +1,10 @@
 ---
 order: 2
-title: Series Cover Design
-size: large
-mainImage: seriesCoverDesign.jpg
+title: Testung testing
+mainImage: Complex_texts-01.jpg
 gallery:
-  image2.jpg: "This is a test caption"
-  image3.jpg: "This is a test caption"
-  image4.jpg: "This is a test caption"
+  "image2.jpg": "This is a test caption"
+  "image3.jpg": "This is a test caption2"
 details:
   "Size": 3.5cm x 22cm
   "Paper Stock": "olinNatural White 80gsm"
