@@ -4,7 +4,7 @@ title: BIOS Tube Map
 size: small
 mainImage: BIOS Tube Map/Oxford Circus.png
 gallery:
-  BIOS Tube Map/Map-05a-VGA_colours.pdf: "The entire London Tube Map created in box drawing characters" 
+  BIOS Tube Map/BIOS Map.png: "The entire London Tube Map created in box drawing characters" 
   BIOS Tube Map/Oxford Circus.png: "Oxford Circus and nearby stations, the basic station designs"
   BIOS Tube Map/Paddington.png: "Paddington station, a more complicated design"
   BIOS Tube Map/Stratford.png: "Stratford stations squeezed in"
