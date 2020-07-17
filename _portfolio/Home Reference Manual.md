@@ -15,7 +15,7 @@ details:
   "Typeface": Adobe Caslon Pro with Mrs Eaves display
   
 ---
-University project
+_University project_
 
 This project involved deciding on a concept for a Home Reference 'How-to' Manual, writing the text and creating the imagery. My concept was 'Folded', a guide on storing and decorating with fabrics and materials for every room in the house.
 

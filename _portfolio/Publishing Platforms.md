@@ -3,19 +3,19 @@ order: 4
 title: Publishing Platforms <br> 'Canary in the Coal Mine'
 mainImage: Publishing Platforms/Publishing_platforms-01.gif
 gallery:
-  Publishing Platforms/Publishing_platforms-02.png: ""
-  Publishing Platforms/Publishing_platforms-03.png: ""
-  Publishing Platforms/Publishing_platforms-04.png: ""
-  Publishing Platforms/Publishing_platforms-05.png: ""
-  Publishing Platforms/Publishing_platforms-06.gif: ""
-  Publishing Platforms/Publishing_platforms-07.jpg: ""
-  Publishing Platforms/Publishing_platforms-08.jpg: ""
+  Publishing Platforms/Publishing_platforms-02.png: "Key phrases are on separate pages for impact"
+  Publishing Platforms/Publishing_platforms-03.png: "At the start of each chapter the sources are shown and work as hyperlinks"
+  Publishing Platforms/Publishing_platforms-04.png: "The UK law chapter is purposefully boring to read to accentuate the hiding of the legal change"
+  Publishing Platforms/Publishing_platforms-05.png: "'Unporn' images are shown alongside the updated Tumblr terms of service"
+  Publishing Platforms/Publishing_platforms-06.gif: "'Broken' safe for work images reveal adult images hidden inside"
+  Publishing Platforms/Publishing_platforms-07.jpg: "The final printed books from Blurb.com"
+  Publishing Platforms/Publishing_platforms-08.jpg: "An inside spread of the printed book"
 details:
   "Size": 1024 x 768px | 5 x 8in
   "Typeface": Source Serif Pro with VT323 display
 ---
 
-University project
+_University project_
 
 This project studies internet culture and post-digital publishing. All the content for this book is either from an open source, or created by me.
 

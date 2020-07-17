@@ -4,13 +4,13 @@ title: Client Directed, <br> 'Mayflower'
 size: large
 mainImage: Client Directed/Client_directed-01.jpg
 gallery:
-  Client Directed/Client_directed-02.jpg: ""
-  Client Directed/Client_directed-03.jpg: ""
-  Client Directed/Client_directed-04.jpg: ""
-  Client Directed/Client_directed-05.jpg: ""
-  Client Directed/Client_directed-06.jpg: ""
-  Client Directed/Client_directed-07.jpg: ""
-  Client Directed/Client_directed-08.jpg: ""
+  Client Directed/Client_directed-02.jpg: "The cover was carefully screenprinted onto the bookcloth"
+  Client Directed/Client_directed-03.jpg: "The title page in the classic Folio Society style"
+  Client Directed/Client_directed-04.jpg: "An custom illustrated map for each section divider"
+  Client Directed/Client_directed-05.jpg: "The typefaces at work on an example spread"
+  Client Directed/Client_directed-06.jpg: "One of the provided maps with altered typefaces"
+  Client Directed/Client_directed-07.jpg: "A colour printed section was bound in with the text sections"
+  Client Directed/Client_directed-08.jpg: "The index was set using a smaller point size accross two columns"
 
 details:
   "Size": 156 x 234mm
@@ -22,7 +22,7 @@ details:
 illustrated with sailing ship], 1609" 
 ---
 
-University project
+_University project_
 
 The client for this project was the Folio Society, who briefed me and supervised my progress with the designs.
 

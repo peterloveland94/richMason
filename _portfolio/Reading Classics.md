@@ -17,7 +17,7 @@ details:
   "Typeface": "Arno Pro"
 ---
 
-University project
+_University project_
 
 The goal of this project was to typeset samples a proposed series design 'Reading Classics'. The series contained a wide range of titles and genres: from prose to poetry, drama to translated parallel texts.
 
