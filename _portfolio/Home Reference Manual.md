@@ -1,6 +1,6 @@
 ---
-order: 5
-title: Home Reference Manual, <br> 'Folded'
+order: 7
+title: Home Reference Manual, 'Folded'
 mainImage: Home Reference Manual/Home_Reference-01.jpg
 gallery:
   Home Reference Manual/Home_Reference-02.jpg: "Contents page of 'Folded'"
@@ -17,6 +17,6 @@ details:
 ---
 _University project_
 
-This project involved deciding on a concept for a Home Reference 'How-to' Manual, writing the text and creating the imagery. My concept was 'Folded', a guide on storing and decorating with fabrics and materials for every room in the house.
+This project involved deciding on a concept for a Home Reference 'How-to' Manual, writing the text and creating the imagery. My concept was '_Folded_', a guide on storing and decorating with fabrics and materials for every room in the house.
 
 The biggest challenge on this project for me was photographing the objects well enough for printing and accurate representation.

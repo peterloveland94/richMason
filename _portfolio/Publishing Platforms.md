@@ -1,6 +1,6 @@
 ---
-order: 4
-title: Publishing Platforms <br> 'Canary in the Coal Mine'
+order: 6
+title: Publishing Platforms 'Canary in the Coal Mine'
 mainImage: Publishing Platforms/Publishing_platforms-01.gif
 gallery:
   Publishing Platforms/Publishing_platforms-02.png: "Key phrases are on separate pages for impact"
@@ -20,7 +20,7 @@ details:
 
 _University project_
 
-This project studies internet culture and post-digital publishing. All the content for this book is either from an open source, or created by me.
+This project studies internet culture and post-digital publishing. All the content for this book is either from an open-source location, or was created by me.
 
 This publication acts as a guide to the upcoming (as of May 2019) UK porn block by pointing readers to three case studies about online censorship of adult content and suggests other sites and blogs for them to find further reading.
 

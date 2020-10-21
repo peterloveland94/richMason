@@ -1,6 +1,6 @@
 ---
 order: 1
-title: Client Directed, <br> 'Mayflower'
+title: Client Directed, 'Mayflower'
 size: large
 mainImage: Client Directed/Client_directed-01.jpg
 gallery:
@@ -24,8 +24,8 @@ illustrated with sailing ship], 1609"
 
 _University project_
 
-The client for this project was the Folio Society, who briefed me and supervised my progress with the designs.
+Unlike my other uni projects this was a client-led projects to teach and gain experience in the real-world. The client for this project was the Folio Society, who briefed me and supervised my progress with the designs.
 
-I particularly enjoyed working on this project and the intense tyopgraphic setting needed to reacht the professional standard. In particular I wanted to create a high-quality dummy to include in my submission, and in doing so learnt much about bookbinding; folding, stitching, gluing and binding.
+To work with this client whilst still at uni was a genuine treat for me. I particularly enjoyed working on this project and the intense tyopgraphic setting needed to recreate the professional standard. In particular I wanted to create a high-quality dummy to include in my submission, and in doing so learnt much about bookbinding; folding, stitching, gluing and binding.
 
 I used contemporary images for the binding and title page designs, adapting them to fit the space and tone of the book.

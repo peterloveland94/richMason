@@ -1,6 +1,6 @@
 ---
-order: 2
-title: Complex Texts, <br> 'Reading Classics'
+order: 5
+title: Complex Texts, 'Reading Classics'
 mainImage: Reading Classics/Complex_texts-01.jpg
 gallery:
   "Reading Classics/Complex_texts-01.jpg": ""
@@ -19,6 +19,8 @@ details:
 
 _University project_
 
-The goal of this project was to typeset samples a proposed series design 'Reading Classics'. The series contained a wide range of titles and genres: from prose to poetry, drama to translated parallel texts.
+The goal of this project was to typeset samples as a proposed series design '_Reading Classics_'. The series contained a wide range of titles and genres: from prose to poetry, drama to translated parallel texts.
 
 I used Arno Pro as the typeface because of it's versatile range of weights and extensive character set. Unlike typefaces re-drawn from pre-digital forms, Arno Pro was created for digital use whilst finding the same level of gravity on the page to carry the well-respected texts.
+
+It was a real challenge to create a succint list of styles that could be applied to any given typographic or editorial situation; from the long lists of '_War and Peace_' to the minute detail of '_Henry V_'.

@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 5
 title: General bookbinding
 size: small
 mainImage: Bookbinding/Bookbinding-01.jpg
