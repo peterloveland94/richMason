@@ -204,6 +204,7 @@ li {
       -ms-flex-positive: 0;
           flex-grow: 0;
   font-style: italic;
+  text-align: center;
 }
 
 @media only screen and (max-width: 64rem) {
